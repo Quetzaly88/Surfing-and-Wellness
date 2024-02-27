@@ -1,43 +1,47 @@
-/*google fonts*/
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap')
 
-/*override default*/
+/* override default */
 * {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-/*general styles*/
+/* general styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     color: black;
-    font-family: 'manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
+
 }
 
 
-/*anchor to other parts of the website*/
+/* anchor to other parts of the website */
 .container{
-    background-color: aqua;
+    background-color: rgba(70, 183, 183, 0.851);
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
+    /*text-transform: uppercase;*/
+    letter-spacing: 2px;
 }
+/* Create two columns that float next to eachother */
 
-/*Header*/
+/* Header */
 header {
-    background-image: url() ;
+    background-image: url(assets/pexels-pixabay-355808.jpg);
+    width: 100%;
     padding: 0 1rem;
     z-index: 99;
-    width: 100%;
     box-shadow: 0 2px 2px rgb(33, 42, 220);
+    
 }
 
-/*main content*/
+/* main content */
 main {
     background-color: lightgray;
     /*have  space in the middle, push footer down*/
@@ -59,8 +63,7 @@ main {
  }
 
 
-/*footer*/
+/* footer */
 footer {
     background-color: coral;
-
 }
