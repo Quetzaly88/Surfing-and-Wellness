@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     color: black;
 }
 
@@ -30,10 +31,25 @@ header {
 
 /*main content*/
 main {
-    background-color: deepskyblue;
-    /*push footer down*/
-    
+    background-color: rgb(233, 199, 50);
+    /*have  space in the middle, push footer down*/
+    flex: 1 0 auto;
 }
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    width: 40%;
+    box-sizing: border-box;
+}
+ h3 {
+    position: center;
+ }
+
 
 /*footer*/
 footer {
