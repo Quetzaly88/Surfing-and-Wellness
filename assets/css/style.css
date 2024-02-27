@@ -4,6 +4,17 @@
     margin: 0%;
     box-sizing: border-box;
 }
+/*anchor to other parts of the website*/
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+
 
 /*Header*/
 header {
