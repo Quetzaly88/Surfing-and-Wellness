@@ -1,3 +1,7 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap')
+
+
 /*override default*/
 * {
     padding: 0%;
@@ -12,6 +16,7 @@ body {
     flex-direction: column;
 
     color: black;
+    font-family: 'manrope', sans-serif;
 }
 
 
