@@ -4,6 +4,16 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+/*general styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+
 /*anchor to other parts of the website*/
 .container{
     background-color: aqua;
@@ -13,20 +23,20 @@
     gap: 10px;
 }
 
-
-
-
 /*Header*/
 header {
-    background-color: lightcoral;
+    background-image: url() ;
 }
 
 /*main content*/
 main {
     background-color: deepskyblue;
+    /*push footer down*/
+    
 }
 
 /*footer*/
 footer {
     background-color: coral;
+
 }
