@@ -18,7 +18,6 @@ body {
 
 }
 
-
 /* anchor to other parts of the website */
 .container{
     background-color: rgba(70, 183, 183, 0.851);
@@ -29,7 +28,7 @@ body {
     /*text-transform: uppercase;*/
     letter-spacing: 2px;
 }
-/* Create two columns that float next to eachother */
+
 
 /* Header */
 header {
@@ -47,17 +46,20 @@ main {
     /*have  space in the middle, push footer down*/
     flex: 1 0 auto;
 }
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack 
+on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      float: left;
+    }
 
-.about {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+/* Clear floats after the columns */
+.row:after {
+    display: table;
+    clear: both;
+  }
 
-.item {
-    width: 40%;
-    box-sizing: border-box;
-}
  h3 {
     position: center;
  }
