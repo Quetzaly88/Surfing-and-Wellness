@@ -53,7 +53,7 @@ on top of each other instead of next to each other */
       width: 100%;
       float: left;
     }
-
+}
 /* Clear floats after the columns */
 .row:after {
     display: table;
@@ -61,7 +61,7 @@ on top of each other instead of next to each other */
   }
 
  h3 {
-    position: center;
+    text-align: center;
  }
 
 
