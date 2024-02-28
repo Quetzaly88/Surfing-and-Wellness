@@ -78,3 +78,22 @@ on top of each other instead of next to each other */
     background-color: rgb(189, 218, 232);
     text-align: center;
 }
+
+/*style for application form*/
+
+
+
+
+
+
+.comments {
+    height: 200px;
+}
+
+/*input[type=submit] {
+    background-color: #ca3f59;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }*/
