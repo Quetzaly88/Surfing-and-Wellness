@@ -20,11 +20,15 @@ body {
 
 /* anchor to other parts of the website */
 .container{
-    background-color: rgba(70, 183, 183, 0.851);
+    background-color: rgba(106, 87, 87, 0.268);
+    font-size: 14px;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-center;
     gap: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
     /*text-transform: uppercase;*/
     letter-spacing: 2px;
 }
@@ -46,6 +50,8 @@ main {
     /*have  space in the middle, push footer down*/
     flex: 1 0 auto;
 }
+
+
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack 
 on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -54,6 +60,8 @@ on top of each other instead of next to each other */
       float: left;
     }
 }
+
+
 /* Clear floats after the columns */
 .row:after {
     display: table;
@@ -66,6 +74,7 @@ on top of each other instead of next to each other */
 
 
 /* footer */
-footer {
-    background-color: coral;
+.footer-container {
+    background-color: rgb(189, 218, 232);
+    text-align: center;
 }
