@@ -81,9 +81,14 @@ on top of each other instead of next to each other */
 
 
 /* footer */
-.footer-container {
-    background-color: rgb(189, 218, 232);
-    text-align: center;
+#social-media {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+    
+   
 }
 
 /*style for application form*/
