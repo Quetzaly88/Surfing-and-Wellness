@@ -44,6 +44,13 @@ header {
     
 }
 
+#social-media {
+    /*background-color: rgb(201, 156, 156);
+    list-style: none;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;*/
+}
 /* main content */
 main {
     background-color: lightgray;
