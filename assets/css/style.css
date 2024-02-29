@@ -81,6 +81,11 @@ on top of each other instead of next to each other */
 
 
 /* footer */
+.contact-info {
+    font-size: x-small;
+}
+
+
 #social-media {
     list-style-type: none;
     display: flex;
