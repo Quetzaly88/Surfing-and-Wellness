@@ -28,6 +28,7 @@ body {
     align-self: flex-start;
     margin: 0 5rem;
 }
+/*image logo*/
 img {
     border: 2px solid #ddd;
     border-radius: 4px;
@@ -60,36 +61,37 @@ li, a {
     background-color: rgb(46, 43, 43);
 }
 
-/* Header */
+/* Header*/
 .container {
     width: 100%;
-    padding: 0 1rem;
+    padding: 1rem;
     z-index: 99;
     /*add shadow to the borders of picture*/
     display: flex;
     align-items: flex-start;
+
 }
 
+/*hero image*/
 .practices {
     background-image: url(../images/pexels-jeremy-bishop-2923596\ copy.webp);
     background-repeat: no-repeat; 
     align-self: center; 
     background-size: cover;
-    padding: 200px;
-    color: rgb(27, 112, 190);
-    /*background-blend-mode: lighten;*/
+    height: 650px;
+    width: 100%;
 }
 
-/*style for main conntext*/
-h3 {
+/*style for main conntext. Information text*/
+.div > h3 {
     font-family: "Rowdies", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
 }
-
-
-
+ .box-1 {
+    img: url(../images/pexels-cottonbro-studio-4327033.webp) no-repeat center;
+ }
 
 
 
@@ -105,7 +107,7 @@ h3 {
 /* main content */
 /*main {
     background-color: lightgray;
-    /*have  space in the middle, push footer down*/
+    /*have  space in the middle, push footer down
     flex: 1 0 auto;
 }*/
 
@@ -126,10 +128,9 @@ on top of each other instead of next to each other */
     clear: both;
   }
 
- h3 {
+h3 {
     text-align: center;
  }
-
 
 /* footer */
 .contact-info {
@@ -140,7 +141,6 @@ on top of each other instead of next to each other */
 }
 
 /*social media logos, need to have better distribution of space*/
-
 #social-media {
     list-style-type: none;
     display: flex;
