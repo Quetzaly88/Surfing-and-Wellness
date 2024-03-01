@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rowdies:wght@300;400;700&display=swap')
 
 /* override default */
 * {
@@ -14,7 +14,10 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
-    font-family: 'Manrope', sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*navigation bar*/
@@ -30,9 +33,12 @@ img {
   }
 
 li, a {
-    font-weight: 500;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 20px;
     color: aliceblue;
+    letter-spacing: 3px;
     text-decoration: none;
 }
 
@@ -42,10 +48,12 @@ li, a {
 
 }
 #navigation {
+    width: 100%;
+    z-index: 99;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 18px 20%;
+    padding: 0 1rem; /*18px 20%;*/
     background-color: rgb(46, 43, 43);
 }
 
@@ -54,7 +62,7 @@ li, a {
     width: 100%;
     padding: 0 1rem;
     z-index: 99;
-    */box-shadow: 0 2px 2px black;*/
+    /*add shadow to the borders of picture*/
     display: flex;
     align-items: flex-start;
 }
@@ -108,7 +116,10 @@ on top of each other instead of next to each other */
 
 /* footer */
 .contact-info {
-    font-size: x-small;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
 }
 
 /*social media logos, need to have better distribution of space*/
