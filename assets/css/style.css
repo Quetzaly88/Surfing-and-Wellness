@@ -133,11 +133,6 @@ on top of each other instead of next to each other */
 
 /*style for application form*/
 
-
-
-
-
-
 .comments {
     height: 200px;
 }
@@ -149,3 +144,14 @@ on top of each other instead of next to each other */
     border: none;
     cursor: pointer;
   }*/
+
+  /*Media query: Tablets and larger (768px and up)*/
+  @media screen and (min-width: 768px) {
+    /*Header*/
+    .nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+  }
