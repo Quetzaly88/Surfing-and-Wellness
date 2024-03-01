@@ -17,6 +17,7 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+/*navigation bar*/
 .logo {
     display: flex;
     align-self: flex-start;
@@ -48,17 +49,24 @@ li, a {
     background-color: rgb(46, 43, 43);
 }
 
-
-
-
-
 /* Header */
-header {
+.container {
     width: 100%;
     padding: 0 1rem;
     z-index: 99;
-    box-shadow: 0 2px 2px rgb(33, 42, 220);
-    
+    */box-shadow: 0 2px 2px black;*/
+    display: flex;
+    align-items: flex-start;
+}
+
+.practices {
+    background-image: url(../images/pexels-jeremy-bishop-2923596\ copy.webp);
+    background-repeat: no-repeat; 
+    align-self: center; 
+    background-size: cover;
+    padding: 250px;
+    color: rgb(27, 112, 190);
+    /*background-blend-mode: lighten;*/
 }
 
 #social-media {
@@ -70,11 +78,11 @@ header {
 }
 
 /* main content */
-main {
+/*main {
     background-color: lightgray;
     /*have  space in the middle, push footer down*/
     flex: 1 0 auto;
-}
+}*/
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack 
