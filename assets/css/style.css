@@ -24,6 +24,7 @@ body {
 .logo {
     display: flex;
     align-self: flex-start;
+    margin: 0 5rem;
 }
 img {
     border: 2px solid #ddd;
@@ -153,5 +154,16 @@ on top of each other instead of next to each other */
         position: relative;
         width: fit-content;
         padding-right: 1rem;
+    }
+  }
+
+  /*Large devices (laptops and desktops, 992 px and up)*/
+  @media screen and (min-width: 992px) {
+    .nav a:hover {
+        border-bottom: 1px solid gold;
+    }
+
+    .logo {
+        margin: 0 11rem;
     }
   }
