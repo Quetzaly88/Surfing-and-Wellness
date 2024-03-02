@@ -106,14 +106,39 @@ li, a {
     font-size: small;
 }
 
-/*social media logos
-#social-media {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    size: 32px;
-}*/
+/*FORM STYLE*/
+    .title {
+    text-align: center;
+   }
+
+   /*form wrapper*/
+   .wraper-main {
+       max-width: fit-content;
+       margin: 2rem auto;
+       border: 2px solid rgb(140, 114, 114);
+       padding: 2rem;
+   }
+
+   #sendBtn {
+   background-color: rgb(208, 59, 45);
+   padding: 0.5rem;
+   cursor: pointer;
+   }
+   #resBtn {
+   background-color: rgb(46, 205, 184);
+   padding: 0.5rem;
+   cursor: pointer;
+   }
+   #sendBtn:hover {
+   color: rgb(46, 225, 40);
+   }
+   #resBtn:hover {
+   color: coral;
+   }
+   input[type=text], textarea, select, button, email {
+       padding: 5px;
+       border-radius: 5px
+   }
 
 /* Responsive layout, less than 600px wide. The three columns stack 
 on top of each other , is for or. and is for and */
