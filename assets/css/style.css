@@ -23,7 +23,7 @@ body {
     align-self: flex-start;
     margin: 0 1rem;
 }
-
+/*styling for logo*/
 img {
     border: 2px solid #ddd;
     border-radius: 4px;
@@ -87,12 +87,9 @@ li, a {
     font-size: 30px;
 }
  
-.box {
-   display: flex;
 
- }
- 
- 
+
+
 #social-media {
     background-color: rgb(58, 52, 52);
     list-style: none;
@@ -100,34 +97,6 @@ li, a {
     display: flex;
     justify-content: space-evenly;
 }
-
-/* main content */
-/*main {
-    background-color: lightgray;
-    /*have  space in the middle, push footer down
-    flex: 1 0 auto;
-}*/
-
-
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack 
-on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      float: left;
-    }
-}
-
-
-/* Clear floats after the columns */
-.row:after {
-    display: table;
-    clear: both;
-  }
-
-h3 {
-    text-align: center;
- }
 
 /* footer */
 .contact-info {
@@ -137,31 +106,28 @@ h3 {
     font-size: small;
 }
 
-/*social media logos, need to have better distribution of space*/
+/*social media logos
 #social-media {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     size: 32px;
+}*/
+
+/* Responsive layout, less than 600px wide. The three columns stack 
+on top of each other , is for or. and is for and */
+@media (min-width: 600px) {
+
+    .column {
+        width: 100%;
+        float: left;
+      }
+
 }
-
-/*style for application form*/
-
-.comments {
-    height: 200px;
-}
-
-/*input[type=submit] {
-    background-color: #ca3f59;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }*/
 
   /*Media query: Tablets and larger (768px and up)*/
-  @media screen and (min-width: 768px) {
+  @media (min-width: 768px) and (orientation: landscape) {
     /*Header*/
     .nav {
         display: block;
@@ -172,7 +138,7 @@ h3 {
   }
 
   /*Large devices (laptops and desktops, 992 px and up)*/
-  @media screen and (min-width: 992px) {
+  @media (min-width: 992px) and (orientation: landscape) {
     .nav a:hover {
         border-bottom: 1px solid gold;
     }
