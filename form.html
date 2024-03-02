@@ -1,73 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Meta names for search engines-->
+    <meta name="description" content="Surf helps people. Surf for health. Travel and learn something new">
+    <meta mame="keywords" content="surf, surfing, surfskate, Wellness, sports, travel, feel better, take a break">
+    
+    <!--Title-->
+    <title>Surfing and Wellness</title>
+    
+    <!--favicon-->
+    <link rel="icon" type="image/favicon" href="assets/icons8-surfing-skin-type-3-48.webp">
 
-    <style>
-/* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rowdies:wght@300;400;700&display=swap')
+    <!--stylessheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
 
-/* override default */
-* {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-        .title {
-         text-align: center;
-        }
-        
-        /*form wrapper*/
-        .wraper-main {
-            max-width: fit-content;
-            margin: 2rem auto;
-            border: 2px solid rgb(140, 114, 114);
-            padding: 2rem;
-        }
-        /*nav bar for form*/
-        #navigation-form {
-            background-color: rgb(46, 43, 43);
-            width: 100%;
-            z-index: 99;
-            display: flex;
-            justify-content: center;
-            padding: 0 1rem; /*18px 20%;*/
-        }
-        li > a {
-             color: whitesmoke;
-        }
-        .nav > li {
-        display: inline-block;
-        padding: 0 25px;
-        }
-        .logo {
-            width: 100%;
-        }
-        #sendBtn {
-        background-color: rgb(208, 59, 45);
-        padding: 0.5rem;
-        cursor: pointer;
-        }
-        #resBtn {
-        background-color: rgb(46, 205, 184);
-        padding: 0.5rem;
-        cursor: pointer;
-        }
-        #sendBtn:hover {
-        color: rgb(46, 225, 40);
-        }
-        #resBtn:hover {
-        color: coral;
-        }
-        input[type=text], textarea, select, button, email {
-            padding: 5px;
-            border-radius: 5px;
-        }
-    </style>
+<!--google fonts Manrope & Rowdies-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
 
+</head>
 
+<body>
+    <!--Nav bar on the top of the site, with logo-->
+    <div id="navigation">
+    <img class="logo" src="assets/images/Black & White Yin Yang Surf Brand Logo (1).webp" alt="logo">
+    <nav>
+        <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="form.html" class="active">Application</a></li>
+        </ul>
+    </nav>
+    </div>
+
+<main>
     <title>Application</title>
 
 </head>
@@ -112,7 +82,7 @@
                 <option value="england">England</option>
             </select>
 
-        </div>
+            </div>
        
        <!--application questionary-->
        <div class="questionary">
@@ -129,8 +99,9 @@
             <input type="radio" name="how_comfortable" value="I-am-a-good-swimmer">
             <label>I am a good swimmer</label>
        </div>
+
 <br><br>
-       <div class="submision">
+      <div class="submision">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="e-mail"><br>
 <br><br>
@@ -138,10 +109,54 @@
 <br><br>
         <button type="submit" id="sendBtn"><strong>SUBMIT</strong></button>
         <button type="reset" id="resBtn">Reset form</button> <!--this works so fine-->
-
         </div>
 
-    </form>
+        </form>
     </section>
+</main>
+    <!--FORM>-->
+
+
+<footer>
+    <!--Contact us info-->
+    <div class="contact-info">
+        <div class="phone">
+        <h4>Call us:</h4>
+        <p>Sweden: (0046) 725591135</p>
+        <p>Ecuador: (0053) 98765145</p>
+    </div>
+
+    <div class="contact-email">
+        <h4>Email</h4>
+        <p>surfingandwelness@icloud.com</p>
+    </div>
+
+    <div class="location">
+        <h4>Visit</h4>
+        <p>Our adress:<br>
+        123 Storgatan, 255 67<br>
+        Helsingborg, Sweden</p>
+        <a href="https://www.google.com/maps" target="_blank" aria-label="Google Maps"></a>
+    </div>
+</div>
+
+<!--Social media logos footer-->
+ <ul id="social-media">
+    <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow us on Facebook">
+            <i class="fa-brands fa-square-facebook"></i></a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+            <i class="fa-brands fa-square-instagram"></i></a>
+    <li>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Watch our adventures on facebook">
+            <i class="fa-brands fa-youtube"></i></a>
+    </li>
+ </ul>
+
+</footer>
+<script src="https://kit.fontawesome.com/edbe85cf23.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
