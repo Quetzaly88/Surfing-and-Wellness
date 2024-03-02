@@ -5,41 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+.title {
+    
+}
+        .wraper-main {
+            max-width: fit-content;
+            margin: 2rem auto;
+            border: 2px solid rgb(140, 114, 114);
+            padding: 2rem;
+        }
+        #sendBtn {
+        background-color: rgb(208, 59, 45);
+        padding: 0.5rem;
+        cursor: pointer;
+        }
+
+        #resBtn {
+        background-color: rgb(46, 205, 184);
+        padding: 0.5rem;
+        cursor: pointer;
+        }
+#sendBtn:hover {
+    color: rgb(46, 225, 40);
+}
+
+#resBtn:hover {
+    color: coral;
+}
+
+        input[type=text], textarea, select, button, email {
+            padding: 5px;
+            border-radius: 5px;
+        }
+    
+    </style>
 
     <title>Application</title>
 
 </head>
-<!--navigation bar-->
-<div id="navigation">
-    <img class="logo" src="assets/images/Black & White Yin Yang Surf Brand Logo (1).webp" alt="logo">
-    <nav>
-        <ul class="nav">
-        <li><a href="#home" aria-label="Go to the top of the page">Home</a></li>
-        <li><a href="#about" aria-label="Go to the main content">About</a></li>
-        <li><a href="#contact" aria-label="Go to contact">Contact</a></li>
-        <!--<li><a href="form.html" aria-label="Fyll your application">Application</a></li>-->
-        </ul>
-    </nav>
-    </div>
-
 
 <body>
         <!--application form pesonal information-->
-            <h3>Submision Request</h3>
+        <section class="title">
+            <h2>Submision Request</h2>
             <p>Is important for us to learn about you, this form will help us to locate you in the most
-                suitable group</p>                
+                suitable group</p> 
+        </section>
 
-<section class="wraper-main">    
+<section class="wraper-main">  
+
     <form action="application-form" method="post">
 
             <div class="column">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name">
-<br>
+<br><br>
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="laststname" placeholder="Your last name">
-<br>            
+<br><br>      
             <label for="country" name="country">Country:</label>
             <select id="country" name="country">
                 <option value="country">Country..</option>
@@ -66,16 +90,18 @@
             <input type="radio" name="how_comfortable" value="I-am-a-good-swimmer">
             <label>I am a good swimmer</label>
        </div>
-
+<br><br>
        <div class="submision">
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="e-mail"><br>
 <br><br>
         <textarea name="message" id="message" placeholder="Write a message..." ></textarea>
 <br><br>
-        <input type="submit" value="Submit">
+        <button type="submit" id="sendBtn"><strong>SUBMIT</strong></button>
+        <button type="reset" id="resBtn">Reset form</button> <!--this works so fine-->
+
         </div>
-        
+
     </form>
     </section>
 </body>
