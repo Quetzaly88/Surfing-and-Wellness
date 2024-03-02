@@ -68,7 +68,7 @@ li, a {
 
 /*hero image*/
 .hero-img {
-    background-image: url(../images/pexels-jeremy-bishop-2923596\ copy.webp);
+    background-image: url(../images/jumping\ on\ the\ beach.webp);
     background-repeat: no-repeat; 
     align-self: center; 
     background-size: cover;
@@ -143,6 +143,7 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    size: 32px;
 }
 
 /*style for application form*/
