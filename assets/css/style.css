@@ -1,5 +1,3 @@
-:lang(english)
-
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rowdies:wght@300;400;700&display=swap')
 
@@ -78,8 +76,9 @@ li, a {
     background-repeat: no-repeat; 
     align-self: center; 
     background-size: cover;
-    height: 650px;
+    height: auto;
     width: 100%;
+   
 }
 
 /*style for main conntext. Information text*/
@@ -89,13 +88,13 @@ li, a {
     font-style: normal;
     font-size: 30px;
 }
- .box-1 {
-    img: url(../images/pexels-cottonbro-studio-4327033.webp) no-repeat center;
+ 
+.box {
+   display: flex;
+
  }
-
-
-
-
+ 
+ 
 #social-media {
     background-color: rgb(46, 43, 43);
     list-style: none;
