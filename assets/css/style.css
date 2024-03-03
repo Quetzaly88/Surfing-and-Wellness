@@ -3,8 +3,8 @@
 
 /* override default */
 * {
-    padding: 0%;
-    margin: 0%;
+    /* padding: 0%;
+    margin: 0%; */
     box-sizing: border-box;
 }
 
@@ -50,6 +50,11 @@ img.box1-img {
     flex-grow: 0;
     align-self: flex-start;
     height: auto;
+}
+
+img.box1-img:hover {
+    border:5px solid green;
+    padding:5px;
 }
 
 .box1-content h3 {
