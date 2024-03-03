@@ -32,6 +32,10 @@ img {
     width: 150px;
 }
 
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
 .box1 {
     display: flex;
     gap: 25px;
