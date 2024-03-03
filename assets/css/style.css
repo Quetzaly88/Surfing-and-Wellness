@@ -157,7 +157,9 @@ li, a {
        padding: 2rem;
    }
    .img-form {
-
+    width: 300px;
+    margin: 0px auto;
+    display: block;
    }
 
    #sendBtn {
