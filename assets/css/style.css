@@ -118,6 +118,9 @@ li, a {
        border: 2px solid rgb(140, 114, 114);
        padding: 2rem;
    }
+   .img-form {
+
+   }
 
    #sendBtn {
    background-color: rgb(208, 59, 45);
