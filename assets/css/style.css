@@ -125,6 +125,10 @@ li, a {
     justify-content: space-evenly;
 }
 
+.social-media-container {
+    background-color: rgb(58, 52, 52);
+}
+
 /* footer */
 .contact-info {
     font-family: "Rowdies", sans-serif;
