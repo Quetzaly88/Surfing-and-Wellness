@@ -121,6 +121,22 @@ li, a {
     font-size: 30px;
 }
  
+iframe {
+    padding: 30px;
+    height: 200%;
+    width: 100%;
+    border: 0;
+}
+
+.inspiration > h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    align-self: center;
+}
+
 /*FOOTER*/
 
 .footer-distributed {
@@ -128,7 +144,6 @@ li, a {
     font-size: x-small;
     font-family: "Rowdies", sans-serif;
     color: whitesmoke;
-    list-style: none;
     padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
@@ -140,7 +155,18 @@ li, a {
 .social-media-icons {
    
 }
+/*GALLERY MASONRY STYLE*/
 
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
 
 /*FORM STYLE*/
     .title {
