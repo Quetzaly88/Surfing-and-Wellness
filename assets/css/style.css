@@ -103,7 +103,7 @@ li, a {
 
 /*hero image*/
 .hero-img {
-    background-image: url(../images/jumping\ on\ the\ beach.webp);
+    background-image: url(../images/jumping-on-the-beach.webp);
     background-repeat: no-repeat; 
     align-self: center; 
     background-size: cover;
@@ -116,7 +116,7 @@ li, a {
 
 /*style for main conntext. Information text*/
 .div > h3 {
-    font-family: "Rowdies", sans-serif;
+    font-family: 'Mainrope', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
@@ -126,21 +126,30 @@ li, a {
 /*INSPIRATION WITH VIDEO STYLING*/
 
 iframe {
-    padding: 30px;
-    height: 200%;
+    padding: 60px;
+    height: 120vh;
     width: 100%;
     border: 0;
 }
 
-
-
 .inspiration > h2 {
-    font-family: "Rowdies", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 20px;
-    display: flex;
-}
+        font-family: 'Rowdies', sans-serif;
+        font-weight: 300;
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .inspiration > p {
+        font-family: 'Mainrope', sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
 
 /*FOOTER*/
 
