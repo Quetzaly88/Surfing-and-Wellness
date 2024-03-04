@@ -48,74 +48,75 @@
 <section class="wraper-main">  
     <!--<img class="logo" src="assets/images/Black & White Yin Yang Surf Brand Logo (1).webp" alt="logo">-->
     <img src="assets/images/surfers begginner.webp" class="img-form" alt="begginner">
-    <form action="application-form" method="post">
+        <form action="application-form" method="post">
 
-    <div class="column">
-        <div>   
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name">
-        </div>
+        <div class="column">
+            <div>   
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+            </div>
 
-        <div>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="laststname" placeholder="Your last name">
-        </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="laststname" placeholder="Your last name">
+            </div>
             
-        <div>
-            <label for="country" name="country">Country:</label>
-                <select id="country" name="country">
-                    <option value="country">Country..</option>
-                    <option value="usa">USA</option>
-                    <option value="germany">Germany</option>
-                    <option value="spain">España</option>
-                    <option value="england">England</option>
-                </select>
+            <div>
+                <label for="country" name="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="country">Country..</option>
+                        <option value="usa">USA</option>
+                        <option value="germany">Germany</option>
+                        <option value="spain">España</option>
+                        <option value="england">England</option>
+                    </select>
+            </div>
+
         </div>
-    </div>
 
     <!--application questionary-->
        
-    <div class="questionary">
-        <div>
-            <p>How comfortable are you in the water?</p>
-            <input type="radio" name="how_comfortable" value="not-much">
-            <label>not much</label>
+        <div class="questionary">
+            <div>
+                <p>How comfortable are you in the water?</p>
+                <input type="radio" name="how_comfortable" value="not-much">
+                <label>not much</label>
+            </div>
+
+            <div>
+                <input type="radio" name="how_comfortable" value="not-at-all">
+                <label>not at all</label>
+            </div>
+
+            <div>
+                <input type="radio" name="how_comfortable" value="I-can-swim">
+                <label>I can swim</label>
+            </div>
+
+            <div>
+                <input type="radio" name="how_comfortable" value="I-am-a-good-swimmer">
+                <label>I am a good swimmer</label>
+            </div>
+
         </div>
 
-        <div>
-            <input type="radio" name="how_comfortable" value="not-at-all">
-            <label>not at all</label>
-        </div>
+        <div class="submision">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e-mail"><br>
+            </div>
 
-        <div>
-            <input type="radio" name="how_comfortable" value="I-can-swim">
-            <label>I can swim</label>
-        </div>
+            <div>
+                <textarea name="message" id="message" placeholder="Write a message..." ></textarea>
+            </div>
 
-        <div>
-            <input type="radio" name="how_comfortable" value="I-am-a-good-swimmer">
-            <label>I am a good swimmer</label>
-        </div>
-
-    </div>
-
-    <div class="submision">
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="e-mail"><br>
-        </div>
-
-        <div>
-            <textarea name="message" id="message" placeholder="Write a message..." ></textarea>
-        </div>
-
-        <div>
-            <button type="submit" id="sendBtn"><strong>SUBMIT</strong></button>
-            <button type="reset" id="resBtn">Reset form</button> <!--this works so fine-->
-        </div>
-    </div>    
-</form>
-</section>
+            <div>
+                <button type="submit" id="sendBtn"><strong>SUBMIT</strong></button>
+                <button type="reset" id="resBtn">Reset form</button> <!--this works so fine-->
+            </div>
+        </div>    
+        </form>
+    </section>
 </main>
     
 
