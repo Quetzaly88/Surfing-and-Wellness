@@ -42,6 +42,7 @@ img {
     display: flex;
     gap: 25px;
     padding: 15px;
+    background-color: rgb(79, 144, 184)
 }
 
 img.box1-img {
@@ -121,6 +122,9 @@ li, a {
     font-size: 30px;
 }
  
+
+/*INSPIRATION WITH VIDEO STYLING*/
+
 iframe {
     padding: 30px;
     height: 200%;
@@ -128,13 +132,14 @@ iframe {
     border: 0;
 }
 
-.inspiration > h3 {
+
+
+.inspiration > h2 {
     font-family: "Rowdies", sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
-    align-self: center;
 }
 
 /*FOOTER*/
