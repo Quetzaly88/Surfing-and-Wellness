@@ -121,27 +121,16 @@ li, a {
     font-size: 30px;
 }
  
+/*FOOTER*/
 
-
-
-#social-media {
+.footer-distributed {
     background-color: rgb(58, 52, 52);
+    font-size: x-small;
+    color: whitesmoke;
     list-style: none;
-    padding: 30px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
-}
-
-.social-media-container {
-    background-color: rgb(58, 52, 52);
-}
-
-/* footer */
-.contact-info {
-    font-family: "Rowdies", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: small;
 }
 
 /*FORM STYLE*/
@@ -192,6 +181,20 @@ on top of each other , is for or. and is for and */
         float: left;
       }
 
+/*FOOTER*/
+   
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
 }
 
   /*Media query: Tablets and larger (768px and up)*/
