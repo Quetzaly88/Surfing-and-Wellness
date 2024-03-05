@@ -168,23 +168,20 @@ iframe {
         padding: 10px;
     }
 
-/*FOOTER*/
+ /*FOOTER*/
 
-.footer-distributed {
-    font-size: x-small;
-    font-family: "Rowdies", sans-serif;
-    color: whitesmoke;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
-}
-
-.social-media-icons {
-    gap: 30px;
-}
-
-
+ .footer-distributed .footer-left,
+ .footer-distributed .footer-center,
+ .footer-distributed .footer-right{
+   display: block;
+   width: 100%;
+   text-align: center;
+   font-size: 12px;
+   font-family: 'Rowdies', sans-serif;
+ }
+ .footer-distributed .footer-center {
+   margin-left: 0;
+ }  
 
 /*GALLERY MASONRY STYLE*/
 
@@ -240,7 +237,7 @@ iframe {
 
 /* Responsive layout, mobil phone*/
 @media screen and (max-width: 576px) {
-    header, nav, main, footer, .hero-text, {
+    header, nav, main, footer {
         font-size: 12px;
     }
     /*header and footer*/
@@ -263,6 +260,7 @@ iframe {
     }
     .hero-text {
         width: 100%;
+        font-size: 12px;
     }
 
     .box1 {
@@ -270,11 +268,10 @@ iframe {
         grid-template-columns: repeat(auto-fill, minmax(200px, auto));
         }
 
-        /*doesn't adjust in center*/
     .box1-img {
         display: flex;
         width: auto;
-        align-self: center;
+        justify-self: center;
         height: auto;
         }
 
@@ -284,16 +281,9 @@ iframe {
         width: 100%;
         border: 0;
         }
-
-    .footer-left, .footer-center, .footer-right {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, auto));
-        }
-    
     .img-form {
-        width: 150px;
+            width: 150px;
     }
-    
 }
 
   /*Media query: Tablets and larger (768px and up)*/
@@ -305,10 +295,30 @@ iframe {
         width: fit-content;
         padding-right: 1rem;
     }
-  }
+
+.footer-distributed {
+    background-color: rgb(58, 52, 52);;
+    font-size: x-small;
+    font-family: "Rowdies", sans-serif;
+    color: whitesmoke;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+}
 
   /*Large devices (laptops and desktops, 992 px and up)*/
   @media screen and (min-width: 992px) {
+        /*FOOTER*/
 
-  }
+.footer-distributed {
+    background-color: rgb(58, 52, 52);;
+    font-size: x-small;
+    font-family: "Rowdies", sans-serif;
+    color: whitesmoke;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+}
    
