@@ -49,35 +49,56 @@ The footer has the advantage to redirect the users to google maps, all social me
 The site is avaiable in on all devices bigger than  414px x 736px. 
 
 An interesting mistake found on W3 code tester is the "meta" 
+Attribute description" not allowed on element meta at this point. W3 validator
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Some problems that I found are:
+- Adjusting the footer to all devices.
+- Reduce video prev. size
+- Some css styling as flex-box
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
+
+
 CSS
 No errors were found when passing through the official (Jigsaw) validator
+
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
+In the GitHub repository, navigate to the Settings tab.
+From the "Code and automation" source select "pages"
+On Github Pages find "Source", choose "deploy from a branch".
+On branch you will find two dop-down menus. Choose "main", "root" and push the "save button".
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://quetzaly88.github.io/Surfing-and-Wellness/
 
 Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+My code was mostly based from the "Love running" walk-through project and 
+Many other credits are to YouTube Tutorials from:
+- Dave Gray teaches code. I got information about Media Query. https://youtu.be/mpYtrgB3b6o?si=tcBwVgdc5glg_Nvu
+- Kevin Powell teaches the CSS common misstakes.  https://youtu.be/rxnX1jdoI6c?si=MVfpxYCRFvbaRnaU
+- Skillthrive. Here I got inspiration for the navigation bar. https://youtu.be/PwWHL3RyQgk?si=pcpu4M5ay6js0GTn
+- W3 validator to check HTML. https://validator.w3.org/
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+Media Content
+- Image resize. https://www.iloveimg.com/resize-image
+- Downloaded Pictures. https://www.pexels.com/
+- Webp converter app. https://anywebp.com/
+- Image size. https://tiny-img.com/blog/best-image-size-for-website/
+- Fav icons, social media icons and fond types. https://fontawesome.com/account/general
+- Logotype for Surfing and Wellness: https://www.canva.com/
+- Responsive mockups. https://youtu.be/Dtad5Ml2UrM?si=vhLDkJcgY4tHJHus and .............
 
-Content
-The text for the Home page was taken from Wikipedia Article A
+Text content
+
+The text content is from myself. I wrote things that I wish to accomplish one day. Some of the text for the Home page was taken from ...........
+
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
 Media
