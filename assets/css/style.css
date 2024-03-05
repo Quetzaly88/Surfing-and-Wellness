@@ -251,9 +251,8 @@ iframe {
     header, nav, main, footer {
         font-size: 12px;
     }
-    /*header*/
+    header
     #navigation {
-        background-color: #3966a5;
         color: whitesmoke;
         font-size: 10px;
     }
