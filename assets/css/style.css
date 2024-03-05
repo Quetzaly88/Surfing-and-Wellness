@@ -10,14 +10,30 @@
 
 /* general styles */
 body {
+    min-height: 100vh;
     padding: 0%;
     margin: 0%;
     color: black;
     font-family: "Manrope", sans-serif;
-    font-size-adjust: auto;
-    font-weight: normal;
-    font-style: normal;
+    background-image: radial-gradient(whitesmoke, #3966a5);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
+/*new attributes*/
+header, nav, main, footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+/*new attributes*/
+#navigation, .footer-distributed {
+    background-color: rgb(58, 52, 52);
+    color: whitesmoke;
+}
+
 
 /*navigation bar*/
 .logo {
@@ -25,8 +41,8 @@ body {
     align-self: flex-start;
     margin: 0 1rem;
 }
-/*styling for logo*/
 
+/*styling for logo*/
 img {
     border: 2px solid #ddd;
     border-radius: 4px;
@@ -34,35 +50,30 @@ img {
     width: 150px;
 }
 
-.flex-row-reverse {
-    flex-direction: row-reverse;
-}
-
-.box1 {
+/* Header*/
+.hero-text {
+    width: 80%;
+    padding: 1rem;
+    z-index: 99;
     display: flex;
-    gap: 25px;
-    padding: 15px;
-    background-color: rgb(79, 144, 184)
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 120%;
+    position: absolute;
+    color: black
 }
 
-img.box1-img {
-    width: 40%;
-    flex-shrink: 0;
-    flex-grow: 0;
-    align-self: flex-start;
-    height: auto;
+/*hero image*/
+.hero-img {
+    background-image: url(../images/jumping-on-the-beach.webp);
+    background-repeat: no-repeat; 
+    align-self: center; 
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    width: auto;
+    position: relative;
 }
-
-img.box1-img:hover {
-    border:5px solid rgb(20, 81, 178);
-    padding:5px;
-}
-
-.box1-content h3 {
-    margin-top: 0;
-    text-align: center;
-}
-
 
 /*home, gallery, application*/
 li, a {
@@ -84,37 +95,41 @@ li, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(58, 52, 52);
+    top: 0;
+    padding: 0.5rem;
+    border-bottom: 2px solid;
 }
 .nav a:hover {
     border-bottom: 1px solid gold;
 }
 
-/* Header*/
-.hero-text {
-    width: 80%;
-    padding: 1rem;
-    z-index: 99;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 120%;
-    position: absolute;
-    color: rgb(13, 12, 11);
-
+/*boxes with text and pictures*/
+.flex-row-reverse {
+    flex-direction: row-reverse;
 }
 
-/*hero image*/
-.hero-img {
-    background-image: url(../images/jumping-on-the-beach.webp);
-    background-repeat: no-repeat; 
-    align-self: center; 
-    background-size: cover;
-    background-position: center;
-    height: 630px;
-    width: auto;
-    position: relative;
-   
+.box1 {
+    display: flex;
+    gap: 25px;
+    padding: 15px;
+}
+
+img.box1-img {
+    width: 40%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: flex-start;
+    height: auto;
+}
+
+img.box1-img:hover {
+    border:5px solid rgb(20, 81, 178);
+    padding:5px;
+}
+
+.box1-content h3 {
+    margin-top: 0;
+    text-align: center;
 }
 
 /*style for main conntext. Information text*/
@@ -124,10 +139,6 @@ li, a {
     font-style: normal;
     font-size: 30px;
 }
-
-
-
-
 
 
 /*INSPIRATION WITH VIDEO STYLING*/
@@ -160,21 +171,21 @@ iframe {
 /*FOOTER*/
 
 .footer-distributed {
-    background-color: rgb(58, 52, 52);;
     font-size: x-small;
     font-family: "Rowdies", sans-serif;
     color: whitesmoke;
     padding: 15px 0;
     display: flex;
     justify-content: space-evenly;
+    bottom: 0;
 }
 
-.logo-footer {
-    
-}
 .social-media-icons {
-   
+    gap: 30px;
 }
+
+
+
 /*GALLERY MASONRY STYLE*/
 
 #photos {
@@ -227,57 +238,66 @@ iframe {
        border-radius: 5px
    }
 
-/* Responsive layout, less than 600px wide. The three columns stack 
-on top of each other , is for or. and is for and */
+/* Responsive layout, mobil phone*/
 @media screen and (max-width: 576px) {
+    header, nav, main, footer, .hero-text, {
+        font-size: 12px;
+    }
+    /*header and footer*/
+    #navigation {
+        background-color: #3966a5;
+        color: whitesmoke;
+        font-size: 10px;
+    }
     img {
         border: 2px solid #ddd;
         border-radius: 4px;
         padding: 5px;
-        width: fit-content;
+        width: 70px;
     }
-    .column {
+
+    .hero-img {
+    height: 300px;
+    width: auto;
+    position: relative;
+    }
+    .hero-text {
         width: 100%;
-        float: left;
-      }
+    }
+
     .box1 {
-        column-count: 1;
-    }
-    .video {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+        }
 
-    }
-    #photos {
-        column-count: auto;
-        column-gap: 0;
-      }
-    .video > iframe {
-        visibility: collapse;
-        width: 0px;
-        height: 0px;
-    }
-    .footer-distributed {
-        column-count: 1;
-    }
-    }
+        /*doesn't adjust in center*/
+    .box1-img {
+        display: flex;
+        width: auto;
+        align-self: center;
+        height: auto;
+        }
 
-/*FOOTER*/
-   
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
+    iframe {
+        padding: 30px;
+        height: 50px;
+        width: 100%;
+        border: 0;
+        }
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
+    .footer-left, .footer-center, .footer-right {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+        }
+    
+    .img-form {
+        width: 150px;
+    }
+    
 }
 
   /*Media query: Tablets and larger (768px and up)*/
-  @media (min-width: 768px) and (orientation: landscape) {
+  @media screen and (min-width: 768px) {
     /*Header*/
     .nav {
         display: block;
@@ -288,7 +308,7 @@ on top of each other , is for or. and is for and */
   }
 
   /*Large devices (laptops and desktops, 992 px and up)*/
-  @media (min-width: 992px) and (orientation: landscape) {
+  @media screen and (min-width: 992px) {
 
   }
    
