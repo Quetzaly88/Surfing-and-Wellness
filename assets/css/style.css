@@ -22,15 +22,20 @@ body {
     flex-direction: column;
     flex-grow: 1;
 }
+
 /*new attributes*/
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     display: grid;
     place-content: center;
     grid-template-columns: 100%;
     text-align: center;
 }
 
-#navigation, .footer-distributed {
+#navigation,
+.footer-distributed {
     background-color: #3A4849;
     color: whitesmoke
 }
@@ -58,7 +63,7 @@ img {
     z-index: 99;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     font-size: 120%;
     position: absolute;
     color: whitesmoke;
@@ -67,17 +72,18 @@ img {
 /*hero image*/
 .hero-img {
     background-image: url(../images/child-surfer.webp);
-    background-repeat: no-repeat; 
-    align-self: center; 
+    background-repeat: no-repeat;
+    align-self: center;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 750px;
     width: auto;
     position: relative;
 }
 
 /*home, gallery, application*/
-li, a {
+li,
+a {
     font-family: "Rowdies", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -86,7 +92,8 @@ li, a {
     letter-spacing: 3px;
     text-decoration: none;
 }
-.nav > li {
+
+.nav>li {
     display: inline-block;
     padding: 0 25px;
 }
@@ -100,6 +107,7 @@ li, a {
     padding: 0.5rem;
     border-bottom: 2px solid;
 }
+
 .nav a:hover {
     border-bottom: 1px solid gold;
 }
@@ -124,8 +132,8 @@ img.box1-img {
 }
 
 img.box1-img:hover {
-    border:5px solid rgb(20, 81, 178);
-    padding:5px;
+    border: 5px solid rgb(20, 81, 178);
+    padding: 5px;
 }
 
 .box1-content h3 {
@@ -134,7 +142,7 @@ img.box1-img:hover {
 }
 
 /*style for main conntext. Information text*/
-.div > h3 {
+.div>h3 {
     font-family: 'Mainrope', sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -149,39 +157,45 @@ iframe {
     border: 0;
 }
 
-.inspiration > h2 {
-        font-family: 'Rowdies', sans-serif;
-        font-weight: 300;
-        font-size: 40px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-    }
-    .inspiration > p {
-        font-family: 'Mainrope', sans-serif;
-        font-weight: 200;
-        font-size: 20px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        padding: 10px;
-    }
+.inspiration>h2 {
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-    .video-container {
-        /*new*/
-        display: inline-block;
-        width: 600px; /* Set the desired width */
-        height: 400px; /* Set the desired height */
-        }
-        /* adjust the size of the iframe or video element within the container */
-        .video-container iframe,
-        .video-container video {
-        width: 100%; /* Make the video fill the container width */
-        height: 100%; /* Make the video fill the container height */
-        }
+.inspiration>p {
+    font-family: 'Mainrope', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.video-container {
+    /*new*/
+    display: inline-block;
+    width: 600px;
+    /* Set the desired width */
+    height: 400px;
+    /* Set the desired height */
+}
+
+/* adjust the size of the iframe or video element within the container */
+.video-container iframe,
+.video-container video {
+    width: 100%;
+    /* Make the video fill the container width */
+    height: 100%;
+    /* Make the video fill the container height */
+}
+
 /*FOOTER STYLING IN MEDIA QUERY*/
-
 
 /*GALLERY MASONRY STYLE*/
 
@@ -193,58 +207,70 @@ iframe {
     background-color: #91B8C7;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /*FORM STYLE*/
-    .title {
+.title {
     text-align: center;
     padding: 3rem;
-   }
+}
 
-   .application-page {
+.application-page {
     background-color: #C77A5A;
-   }
+}
 
-   /*form wrapper*/
-   .wraper-main {
-       max-width: fit-content;
-       margin: 2rem auto;
-       border: 2px solid #3A4849;
-       padding: 5rem;
-       background-color: whitesmoke;
-   }
-   .img-form {
-    width: 300px;
+/*form wrapper*/
+.wraper-main {
+    max-width: fit-content;
+    margin: 2rem auto;
+    border: 2px solid #3A4849;
+    padding: 5rem;
+    background-color: whitesmoke;
+}
+
+.img-form {
+    width: 150px;
     margin: 0px auto;
     display: block;
-   }
+}
 
-   #sendBtn {
-   background-color: rgba(39, 172, 39, 0.864);
-   padding: 0.5rem;
-   cursor: pointer;
-   }
-   #resBtn {
-   background-color: rgb(198, 42, 42);
-   padding: 0.5rem;
-   cursor: pointer;
-   }
-   #sendBtn:hover {
-   color:  rgb(60, 246, 60);
-   }
-   #resBtn:hover {
-   color: gold;
-   }
-   input[type=text], textarea, select, button {
-       padding: 5px;
-       border-radius: 5px
-   }
+#sendBtn {
+    background-color: rgba(39, 172, 39, 0.864);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#resBtn {
+    background-color: rgb(198, 42, 42);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    color: rgb(60, 246, 60);
+}
+
+#resBtn:hover {
+    color: gold;
+}
+
+input[type=text],
+textarea,
+select,
+button {
+    padding: 5px;
+    border-radius: 5px
+}
 
 /* Responsive layout, mobil phone*/
 @media screen and (max-width: 414px) {
-    header, nav, main, footer {
+
+    header,
+    nav,
+    main,
+    footer {
         font-size: 12px;
     }
 
@@ -252,6 +278,7 @@ iframe {
         color: whitesmoke;
         font-size: 10px;
     }
+
     img {
         border: 2px solid #ddd;
         border-radius: 4px;
@@ -260,10 +287,11 @@ iframe {
     }
 
     .hero-img {
-    height: 300px;
-    width: auto;
-    position: relative;
+        height: 500px;
+        width: auto;
+        position: relative;
     }
+
     .hero-text {
         width: 100%;
         font-size: 12px;
@@ -272,20 +300,29 @@ iframe {
     .box1 {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-        }
+    }
 
     .box1-img {
         display: flex;
         width: auto;
         justify-self: center;
         height: auto;
-        }
+    }
 
     .video-container {
-        width: 400px; 
-        height: 300px; 
+        width: 400px;
+        height: 300px;
     }
-  
+
+    /*form wrapper*/
+    .wraper-main {
+        max-width: fit-content;
+        margin: 1rem auto;
+        border: 2px solid #3A4849;
+        padding: 1rem;
+        background-color: whitesmoke;
+    }
+
     .footer-distributed {
         display: flex;
         flex-direction: column;
@@ -295,21 +332,12 @@ iframe {
         text-align: center;
         font-size: 12px;
         font-family: 'Rowdies', sans-serif;
-      }
-}
-/* You may also need to adjust the size of the iframe or video element within the container */
-    .video-container iframe,
-    .video-container video {
-        width: 100%; /* Make the video fill the container width */
-        height: 100%; /* Make the video fill the container height */
-        }
-
-    .img-form {
-            width: 150px;
     }
+}
 
 /* Responsive layout, less than 600px wide*/
 @media screen and (max-width: 576px) {
+
     /*Header*/
     .nav {
         display: block;
@@ -317,8 +345,10 @@ iframe {
         width: fit-content;
         padding-right: 1rem;
     }
+
     .footer-distributed {
-        background-color: rgb(58, 52, 52);;
+        background-color: rgb(58, 52, 52);
+        ;
         font-size: x-small;
         font-family: "Rowdies", sans-serif;
         color: whitesmoke;
@@ -328,8 +358,9 @@ iframe {
     }
 }
 
-  /*Media query: Tablets and larger (768px and up)*/
-  @media screen and (min-width: 768px) {
+/*Media query: Tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
     /*Header*/
     .nav {
         display: block;
@@ -337,8 +368,7 @@ iframe {
         width: fit-content;
         padding-right: 1rem;
     }
-   
-    
+
     .footer-distributed {
         font-size: small;
         font-family: "Rowdies", sans-serif;
@@ -353,8 +383,8 @@ iframe {
     }
 }
 
-  /*Large devices (laptops and desktops, 992 px and up)*/
-  @media screen and (min-width: 992px) {
+/*Large devices (laptops and desktops, 992 px and up)*/
+@media screen and (min-width: 992px) {
 
     .footer-distributed {
         font-size: x-small;
@@ -368,5 +398,16 @@ iframe {
         width: 100%;
         gap: 20px;
     }
+    .video-container {
+        display: inline-block;
+        width: 900px;
+        height: 600px;
+    }
+    
+    .video-container iframe,
+    .video-container video {
+        width: 100%;
+        height: 100%;
+    }
+    
 }
-   
