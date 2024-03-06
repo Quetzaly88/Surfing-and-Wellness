@@ -132,8 +132,8 @@ img.box1-img {
 }
 
 img.box1-img:hover {
-    border: 5px solid rgb(20, 81, 178);
-    padding: 5px;
+    border: 5px solid rgb(192, 199, 212);
+    padding: 2px;
 }
 
 .box1-content h3 {
@@ -141,7 +141,7 @@ img.box1-img:hover {
     text-align: center;
 }
 
-/*style for main conntext. Information text*/
+/*style for main context. Information text*/
 .div>h3 {
     font-family: 'Mainrope', sans-serif;
     font-weight: 200;
@@ -190,9 +190,7 @@ iframe {
 .video-container iframe,
 .video-container video {
     width: 100%;
-    /* Make the video fill the container width */
     height: 100%;
-    /* Make the video fill the container height */
 }
 
 /*FOOTER STYLING IN MEDIA QUERY*/
@@ -264,8 +262,20 @@ button {
     border-radius: 5px
 }
 
+.footer-distributed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+
 /* Responsive layout, mobil phone*/
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 576px) {
 
     header,
     nav,
@@ -323,20 +333,10 @@ button {
         background-color: whitesmoke;
     }
 
-    .footer-distributed {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-        font-size: 12px;
-        font-family: 'Rowdies', sans-serif;
-    }
 }
 
 /* Responsive layout, less than 600px wide*/
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 768px) {
 
     /*Header*/
     .nav {
@@ -346,9 +346,20 @@ button {
         padding-right: 1rem;
     }
 
+    /*.box1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    }
+
+    .box1-img {
+        display: flex;
+        width: auto;
+        justify-self: center;
+        height: auto;
+    }*/
+
     .footer-distributed {
         background-color: rgb(58, 52, 52);
-        ;
         font-size: x-small;
         font-family: "Rowdies", sans-serif;
         color: whitesmoke;
@@ -358,10 +369,8 @@ button {
     }
 }
 
-/*Media query: Tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
+Media query: Tablets and larger (768px and up) @media screen and (min-width: 768px) {
 
-    /*Header*/
     .nav {
         display: block;
         position: relative;
@@ -387,7 +396,7 @@ button {
 @media screen and (min-width: 992px) {
 
     .footer-distributed {
-        font-size: x-small;
+        font-size: small;
         font-family: "Rowdies", sans-serif;
         display: flex;
         padding: 15px 0;
@@ -398,16 +407,17 @@ button {
         width: 100%;
         gap: 20px;
     }
+
     .video-container {
         display: inline-block;
         width: 900px;
         height: 600px;
     }
-    
+
     .video-container iframe,
     .video-container video {
         width: 100%;
         height: 100%;
     }
-    
+
 }
