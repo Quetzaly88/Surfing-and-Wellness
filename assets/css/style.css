@@ -34,17 +34,16 @@ footer {
     text-align: center;
 }
 
-#navigation,
-.footer-distributed {
+#navigation {
     background-color: #3A4849;
-    color: whitesmoke
+    color: whitesmoke;
+    letter-spacing: 3px;
 }
 
 /*navigation bar*/
 .logo {
     display: flex;
     align-self: flex-start;
-    /*margin: 0 1rem;*/
     margin-left: 100px;
 }
 
@@ -82,18 +81,15 @@ img {
 }
 
 /*home, gallery, application*/
-li,
-a {
+li, a {
     font-family: "Rowdies", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 20px;
     color: whitesmoke;
-    letter-spacing: 3px;
     text-decoration: none;
 }
 
-.nav>li {
+.nav > li {
     display: inline-block;
     padding: 0 25px;
 }
@@ -109,20 +105,18 @@ a {
 }
 
 .nav a:hover {
-    border-bottom: 1px solid gold;
+    border-bottom: 1px solid #C77A5A;
 }
 
-/*boxes with text and pictures*/
+/*boxes with text and pictures
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
-
 .box1 {
     display: flex;
     gap: 25px;
     padding: 15px;
 }
-
 img.box1-img {
     width: 40%;
     flex-shrink: 0;
@@ -130,16 +124,14 @@ img.box1-img {
     align-self: flex-start;
     height: auto;
 }
-
 img.box1-img:hover {
     border: 5px solid rgb(192, 199, 212);
     padding: 2px;
 }
-
 .box1-content h3 {
     margin-top: 0;
     text-align: center;
-}
+}*/
 
 /*style for main context. Information text*/
 .div>h3 {
@@ -193,7 +185,18 @@ iframe {
     height: 100%;
 }
 
-/*FOOTER STYLING IN MEDIA QUERY*/
+/*FOOTER STYLING*/
+.footer-distributed {
+    background-color: #3A4849;
+    color: whitesmoke;
+    font-family: "Rowdies", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    font-size: 14px;
+}
 
 /*GALLERY MASONRY STYLE*/
 
@@ -262,32 +265,14 @@ button {
     border-radius: 5px
 }
 
-.footer-distributed {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    font-size: 12px;
-    font-family: 'Rowdies', sans-serif;
-}
-
 
 /* Responsive layout, mobil phone*/
 @media screen and (max-width: 576px) {
 
-    header,
-    nav,
-    main,
-    footer {
+    /*header,
+    main, {
         font-size: 12px;
-    }
-
-    #navigation {
-        color: whitesmoke;
-        font-size: 10px;
-    }
+    }*/
 
     img {
         border: 2px solid #ddd;
@@ -307,17 +292,16 @@ button {
         font-size: 12px;
     }
 
-    .box1 {
+    /*.box1 {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, auto));
     }
-
     .box1-img {
         display: flex;
         width: auto;
         justify-self: center;
         height: auto;
-    }
+    }*/
 
     .video-container {
         width: 400px;
@@ -332,6 +316,11 @@ button {
         padding: 1rem;
         background-color: whitesmoke;
     }
+    /*FOOTER STYLING*/
+    .footer-distributed {
+    gap: 20px;
+    flex-direction: column;
+}
 
 }
 
@@ -358,18 +347,9 @@ button {
         height: auto;
     }*/
 
-    .footer-distributed {
-        background-color: rgb(58, 52, 52);
-        font-size: x-small;
-        font-family: "Rowdies", sans-serif;
-        color: whitesmoke;
-        padding: 15px 0;
-        display: flex;
-        justify-content: space-evenly;
-    }
 }
 
-Media query: Tablets and larger (768px and up) @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .nav {
         display: block;
@@ -377,36 +357,10 @@ Media query: Tablets and larger (768px and up) @media screen and (min-width: 768
         width: fit-content;
         padding-right: 1rem;
     }
-
-    .footer-distributed {
-        font-size: small;
-        font-family: "Rowdies", sans-serif;
-        display: flex;
-        padding: 15px 0;
-        /*justify-content: space-evenly;*/
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 20px;
-    }
 }
 
 /*Large devices (laptops and desktops, 992 px and up)*/
 @media screen and (min-width: 992px) {
-
-    .footer-distributed {
-        font-size: small;
-        font-family: "Rowdies", sans-serif;
-        display: flex;
-        padding: 15px 0;
-        /*justify-content: space-evenly;*/
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 20px;
-    }
 
     .video-container {
         display: inline-block;
