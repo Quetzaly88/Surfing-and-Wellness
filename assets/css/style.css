@@ -29,7 +29,6 @@ footer {
     place-content: center;
     grid-template-columns: 100%;
     text-align: center;
-    
 }
 
 #navigation {
@@ -73,7 +72,7 @@ img {
     align-self: center;
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 700px;
     width: auto;
     position: relative;
 }
@@ -82,7 +81,6 @@ img {
 li, a {
     font-family: "Rowdies", sans-serif;
     font-weight: 200;
-    font-style: normal;
     color: whitesmoke;
     text-decoration: none;
 }
@@ -112,10 +110,12 @@ li, a {
 }
 .box1 {
     display: flex;
+    font-family: 'Mainrope', sans-serif;
     gap: 25px;
     padding: 50px;
     align-items: center;
 }
+
 img.box1-img {
     width: 30%;
     flex-shrink: 0;
@@ -127,15 +127,15 @@ img.box1-img:hover {
     border: 5px solid rgb(192, 199, 212);
     padding: 2px;
 }
+
 .box1-content h3 {
     margin-top: 0;
     text-align: center;
 }
 
 /*style for main context. Information text*/
-.div>h3 {
-    font-family: 'Mainrope', sans-serif;
-    font-weight: 200;
+.div>h2 {
+    font-weight: 300;
     font-style: normal;
     font-size: 30px;
 }
@@ -148,21 +148,22 @@ iframe {
     border: 0;
 }
 
+.inspiration {
+        font-family: 'Mainrope', sans-serif;
+        text-align: center;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 25px;
+}
+
+
 .inspiration>h2 {
-    font-family: 'Rowdies', sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    text-align: center;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .inspiration>p {
-    font-family: 'Mainrope', sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    text-align: center;
     display: flex;
     justify-content: center;
     padding: 10px;
