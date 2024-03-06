@@ -8,7 +8,8 @@ Users of this website can find information about our work and they can even comp
 Responsive Mockup
 
 
-Features
+Features:
+
 Navigation Bar
 * Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with Surfing Wellness. At the end we have the Application where people can write some information about themselves and be candidates to be part of the Surf and Wellness adventures. 
 
@@ -16,15 +17,20 @@ Navigation Bar
 
 * The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
 
-![](assets/README.files/mainpage.webp)
+![](assets/README.files/main-.webp)
 
 
 The landing page image
 
-The landing includes a photograph with text overlay to allow the user understand why is this concept important and how can people benefit from it. The image gives the user an ideaof................
+The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of what is happiness when you are having fun and challenging yourself. 
 
-Landing Page
-Here we have more information about the programs and why are they relevant. 
+The main section
+![](assets/README.files/content1.webp)
+![](assets/README.files/content2.webp)
+
+Here we have the main content that shows some of the most important activities included in this program. The programs are based on rehabilitate and make people feel better. Everyone can be part of this journey no matter how old or what background you have. 
+Surf, surfskate, yoga and meditation are some of the activities that individuals can enjoy during this journey. 
+
 
 Gallery Section
 
