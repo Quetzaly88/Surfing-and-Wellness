@@ -61,23 +61,19 @@ img {
     align-items: flex-start;
     font-size: 120%;
     position: absolute;
-    color: black
+    color: whitesmoke;
 }
 
 /*hero image*/
 .hero-img {
-    background-image: url(../images/ocean-view-background.webp);
-    background-size: 150px;
-    width: auto;
-    height: 800px;
-    background-position: center;
+    background-image: url(../images/child-surfer.webp);
+    background-repeat: no-repeat; 
+    align-self: center; 
     background-size: cover;
-    background-repeat: no-repeat;
-    clip-path: inset(400 0 0 0);
-    border: 2px solid;
-    /*position: relative;*/
-    /*align-self: center; */
-    
+    background-position: center;
+    height: 900px;
+    width: auto;
+    position: relative;
 }
 
 /*home, gallery, application*/
