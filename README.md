@@ -16,7 +16,7 @@ Navigation Bar
 
 * The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
 
-![](assets/README.files/Screenshot-main-page.webp)
+![](assets/README.files/mainpage.webp)
 
 
 The landing page image

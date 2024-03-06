@@ -17,13 +17,10 @@ body {
     font-family: "Manrope", sans-serif;
     background-image: radial-gradient(whitesmoke, #3F9BB2);
     display: flex;
-    /*font-size-adjust: auto;
-    font-weight: normal;*/
     flex-direction: column;
     flex-grow: 1;
 }
 
-/*new attributes*/
 header,
 nav,
 main,
@@ -32,6 +29,7 @@ footer {
     place-content: center;
     grid-template-columns: 100%;
     text-align: center;
+    
 }
 
 #navigation {
@@ -44,7 +42,7 @@ footer {
 .logo {
     display: flex;
     align-self: flex-start;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 /*styling for logo*/
@@ -57,14 +55,14 @@ img {
 
 /* Header*/
 .hero-text {
-    width: 80%;
-    padding: 1rem;
+    width: 95%;
     z-index: 99;
     display: flex;
+    padding: 1rem 2rem 0 5rem;
     flex-direction: column;
     align-items: center;
     font-size: 120%;
-    position: absolute;
+    position: relative;
     color: whitesmoke;
 }
 
@@ -278,11 +276,9 @@ button {
 /* Responsive layout, mobil phone*/
 @media screen and (max-width: 576px) {
 
-    /*header,
-    main, {
-        font-size: 12px;
-    }*/
-
+    .logo {
+        margin-left: 50px;
+    }
     img {
         border: 2px solid #ddd;
         border-radius: 4px;
