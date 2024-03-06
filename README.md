@@ -62,18 +62,21 @@ Add images that are already with the right size and with .webp to save time. The
 
 
 Testing
-Home, Gallery and Application work perfectly in all devices. You can return and go to all the pages from all the pages. 
-The footer has the advantage to redirect the users to google maps, all social media avaiable and even email draft. 
+*Home, Gallery and Application are responsive. 
 
-The site is avaiable in on all devices bigger than  414px x 736px. 
+*The footer redirect the users to google maps, all social media avaiable and even email draft. 
 
-An interesting mistake found on W3 code tester is the "meta" 
-Attribute description" not allowed on element meta at this point. W3 validator
+*The site is avaiable in on all devices (max-width 1200px)
+
+Bugs
+
+I've been correcting and adjusting small mistakes in all the process of this project. 
+Sometimes I've made big changes to make the page look better. 
 
 Some problems that I found are:
 - Adjusting the footer to all devices.
 - Reduce video prev. size
-- Some css styling as flex-box
+- Some css styling as flex-box.
 
 
 Validator Testing

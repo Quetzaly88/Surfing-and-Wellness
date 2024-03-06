@@ -109,7 +109,6 @@ li, a {
     flex-direction: row-reverse;
 }
 .box1 {
-    letter-spacing: 3p;
     display: flex;
     font-family: 'Mainrope', sans-serif;
     gap: 25px;
