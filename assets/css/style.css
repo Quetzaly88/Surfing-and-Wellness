@@ -15,7 +15,7 @@ body {
     margin: 0%;
     color: black;
     font-family: "Manrope", sans-serif;
-    background-image: radial-gradient(whitesmoke, #3966a5);
+    background-image: radial-gradient(whitesmoke, #3F9BB2);
     display: flex;
     /*font-size-adjust: auto;
     font-weight: normal;*/
@@ -31,15 +31,16 @@ header, nav, main, footer {
 }
 
 #navigation, .footer-distributed {
-    background-color: rgb(58, 52, 52);
-    color: whitesmoke;
+    background-color: #3A4849;
+    color: whitesmoke
 }
 
 /*navigation bar*/
 .logo {
     display: flex;
     align-self: flex-start;
-    margin: 0 1rem;
+    /*margin: 0 1rem;*/
+    margin-left: 100px;
 }
 
 /*styling for logo*/
@@ -65,14 +66,18 @@ img {
 
 /*hero image*/
 .hero-img {
-    background-image: url(../images/jumping-on-the-beach.webp);
-    background-repeat: no-repeat; 
-    align-self: center; 
-    background-size: cover;
-    background-position: center;
-    height: 630px;
+    background-image: url(../images/ocean-view-background.webp);
+    background-size: 150px;
     width: auto;
-    position: relative;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: inset(400 0 0 0);
+    border: 2px solid;
+    /*position: relative;*/
+    /*align-self: center; */
+    
 }
 
 /*home, gallery, application*/
@@ -168,6 +173,8 @@ iframe {
     }
 
     .video-container {
+        /*new*/
+        display: inline-block;
         width: 600px; /* Set the desired width */
         height: 400px; /* Set the desired height */
         }
@@ -179,6 +186,7 @@ iframe {
         }
 /*FOOTER STYLING IN MEDIA QUERY*/
 
+
 /*GALLERY MASONRY STYLE*/
 
 #photos {
@@ -186,6 +194,7 @@ iframe {
     line-height: 0;
     column-count: 3;
     column-gap: 0;
+    background-color: #91B8C7;
 }
 
 #photos > img {
@@ -195,14 +204,20 @@ iframe {
 /*FORM STYLE*/
     .title {
     text-align: center;
+    padding: 3rem;
+   }
+
+   .application-page {
+    background-color: #C77A5A;
    }
 
    /*form wrapper*/
    .wraper-main {
        max-width: fit-content;
        margin: 2rem auto;
-       border: 2px solid rgb(140, 114, 114);
-       padding: 2rem;
+       border: 2px solid #3A4849;
+       padding: 5rem;
+       background-color: whitesmoke;
    }
    .img-form {
     width: 300px;
@@ -211,20 +226,20 @@ iframe {
    }
 
    #sendBtn {
-   background-color: rgb(208, 59, 45);
+   background-color: rgba(39, 172, 39, 0.864);
    padding: 0.5rem;
    cursor: pointer;
    }
    #resBtn {
-   background-color: rgb(46, 205, 184);
+   background-color: rgb(198, 42, 42);
    padding: 0.5rem;
    cursor: pointer;
    }
    #sendBtn:hover {
-   color: rgb(35, 219, 29);
+   color:  rgb(60, 246, 60);
    }
    #resBtn:hover {
-   color: rgb(223, 116, 77);
+   color: gold;
    }
    input[type=text], textarea, select, button {
        padding: 5px;
