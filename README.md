@@ -8,45 +8,52 @@ Users of this website can find information about our work and they can even comp
 Responsive Mockup
 
 
-Features:
+FEATURES
 
-Navigation Bar
+![](assets/README.files/main-.webp)
+
+Navigation Bar:
+
 * Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with Surfing Wellness. At the end we have the Application where people can write some information about themselves and be candidates to be part of the Surf and Wellness adventures. 
 
 * The same navigation bar is avaiable on all three pages to make it possible return to de desired page.
 
 * The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
 
-![](assets/README.files/main-.webp)
 
-
-The landing page image
-
+The landing page image:
 The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of what is happiness when you are having fun and challenging yourself. 
 
-The main section
-![](assets/README.files/content1.webp)
-![](assets/README.files/content2.webp)
 
+The main section
 Here we have the main content that shows some of the most important activities included in this program. The programs are based on rehabilitate and make people feel better. Everyone can be part of this journey no matter how old or what background you have. 
 Surf, surfskate, yoga and meditation are some of the activities that individuals can enjoy during this journey. 
 
+![](assets/README.files/content1.webp)
+
+Inside the main content we have an embeded video which is a trailer for a documental. The video is very moving and shows how has veterans return to their normal lives thanks to surfing. This is proof that this program can be very beneficial. 
+
+![](assets/README.files/content2.webp)
 
 Gallery Section
+Here we have some pictures of the experiences. 
+Meditation, surfing, socializing and connection with the nature are some of the highlights that can motivate users to be part of this eperience. 
 
-Here we have some pictures of the experiences. Meditation, surfing, socializing and connection with the nature are some of the highlights that can motivate users to be part of this eperience. 
+![](assets/README.files/gallery.webp)
 
 Application Form
 
-Here, can the users provide of basic information about themselves so the Surfing and Wellness team can organize the trips and contact the users about what is avaiable. 
+*In this page, the users provide basic information about themselves. Name, last name, email adress and some questions. 
+    The questions are important for the team to know a little bit more about the users and their experience in the water. 
+*S&W team can locate people in the most adaptable group. Then, they can contact the users about what is avaiable. 
+
+
+![](assets/README.files/application.webp)
 
 Footer
 
-The footer section includes links to the relevant social media sites for Surfing and Wellness which can keep our users connected. The links will open to a new tab to allow easy navigation for the user. Here we also provide our contact information. 
-
-The gallery page
-
-The user can see the adventures that we had with other groups an have apreciation of our work. 
+*The footer section includes links to the relevant social media sites for S&W which can keep our users connected. The links will open to a new tab to allow easy navigation for the user. 
+* We provide our contact information, adress, phone numbers and direct conection to e-mail and google maps. 
 
 
 Features Left to Implement
