@@ -1,8 +1,8 @@
 # Surfing-and-Wellness
 Project 1 Code Institute
-SURFING AND WELLNESS
 
-Surfing and wellness is a site to inspire people to do a different sport which can connect them with themselves and nature. This website is targeted to people in need of new perspectives in life and with a need to find a new support community. 
+Surfing and wellness is a site to inspire users to do a different sport which can help them connect with themselves and nature. This website is targeted to people in need of new perspectives in life and with the desire to find a new support community. 
+Users of this website can find information about our work and they can even complete an application to be part of these journeys.
 
 
 Responsive Mockup
@@ -10,8 +10,13 @@ Responsive Mockup
 
 Features
 Navigation Bar
+* Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with Surfing Wellness. At the end we have the Application where people can write some information about themselves and be candidates to be part of the Surf and Wellness adventures. 
 
-Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with Surfing Wellness. At the end we have the Application where people can write some infformation about themselves to be able to be part of the Surf and Wellness adventures. The website contains information and inspiration for whom are interested on being part of the adventures. 
+* The same navigation bar is avaiable on all three pages to make it possible return to de desired page.
+
+* The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
+
+![](assets/README.files/Screenshot-main-page.webp)
 
 
 The landing page image
@@ -103,3 +108,5 @@ The text content is from myself. I wrote things that I wish to accomplish one da
 
 
 skiss.   https://balsamiq.com/
+
+[main-page]: Screenshot-main-page.webp
