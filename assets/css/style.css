@@ -226,16 +226,18 @@ iframe {
 /*form wrapper*/
 .wraper-main {
     max-width: fit-content;
-    margin: 2rem auto;
+    margin: 1rem auto 5rem;
     border: 2px solid #3A4849;
-    padding: 5rem;
+    padding: 2rem;
     background-color: rgb(239, 228, 228);
+  
 }
 
 .img-form {
-    width: 150px;
-    margin: 0px auto;
+    width: 300px;
+    margin: 20px;
     display: block;
+    padding: 10px;
 }
 
 #sendBtn {
@@ -248,6 +250,10 @@ iframe {
     background-color: rgb(198, 42, 42);
     padding: 0.5rem;
     cursor: pointer;
+}
+
+#sendBtn, #resBtn {
+    font-family: 'Rowdies';
 }
 
 #sendBtn:hover {
@@ -265,7 +271,7 @@ button {
     font-family: 'Manrope', sans-serif;
     padding: 2.5px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 
