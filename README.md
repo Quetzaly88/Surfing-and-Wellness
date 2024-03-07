@@ -15,7 +15,7 @@ Colour Scheme
 I chose warm tones for my website in order to communicate peace and relaxation. 
 I used coolors.co sto be able to match correctly all the tones. The dark color was used on header and footer. The ligter colors were used as background colors with gradienst property. 
 
-![](assets/README.files/warm-tones.webp)
+![](assets/README.files/warm-tones.webp =350x)
 
 
 Typography
@@ -23,9 +23,6 @@ Typography
 The chosen typography was adquired from fonts google.
 I chose "Manrope" for the main text because is a redable font and adapts easy to all the context.
 Another font is "Rowdies". This one was chosen for all the header and footer elements because is more fun and interactive. 
-
-[](assets/README.files/manrope-font.webp)
-[](assets/README.files/rowdies-fonst.webp)
 
 Imagery
 
@@ -35,10 +32,6 @@ I chose those images with thought on the contente, the colors and the emotions I
 Wireframes
 
 Most wireframes were made old school with pen and paper. I have even used "balsamiq" but the ones I made on paper were more versatile and easy to go back in the middle of the project. 
-
-[](assets/README.files/Screenshot-skiss1.webp)
-[](assets/README.files/screenshot-skiss2.webp)
-[](assets/README.files/Screenshot-skiss3.webp)
 
 FEATURES
 
