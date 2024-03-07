@@ -36,9 +36,9 @@ Wireframes
 
 Most wireframes were made old school with pen and paper. I have even used "balsamiq" but the ones I made on paper were more versatile and easy to go back in the middle of the project. 
 
-[](assets/README.files/Screenshot-skiss1.png)
-[](assets/README.files/screenshot-skiss2.png)
-[](assets/README.files/Screenshot-skiss3.png)
+[](assets/README.files/Screenshot-skiss1.webp)
+[](assets/README.files/screenshot-skiss2.webp)
+[](assets/README.files/Screenshot-skiss3.webp)
 
 FEATURES
 
