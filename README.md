@@ -4,9 +4,7 @@ Project 1 Code Institute
 Surfing and wellness is a site to inspire users to do a different sport which can help them connect with themselves and nature. This website is targeted to people in need of new perspectives in life and with the desire to find a support community. 
 Users of this website can find information about our work and they can even complete an application to be part of these journeys.
 
-User Experience (UX)
-Responsive Mockup
-
+![warm tones](./assets/readme-files/mockup.webp)
 
 Design
 
