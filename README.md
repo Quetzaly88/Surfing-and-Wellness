@@ -42,21 +42,18 @@ Most wireframes were made old school with pen and paper. I have even used "balsa
 
 FEATURES
 
-![](assets/README.files/main-.webp)
-
 Navigation Bar:
 
 * Featured on all three pages. You can go over the different parts of the website. Home will direct you to the main page. Gallery will direct you to the pictures of travels with Surfing Wellness. At the end we have the Application where people can write some information about themselves and be candidates to be part of the Surf and Wellness adventures. 
 
 * The same navigation bar is avaiable on all three pages to make it possible return to de desired page.
-
 * The navigation has also the logotype of "Surfing and Wellnes" which has a good contrast with the other colors of the page. 
-
 
 The landing page image
 
 The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of what is happiness when you are having fun and challenging yourself. 
 
+![](assets/README.files/main-.webp)
 
 The main section
 
@@ -88,7 +85,7 @@ Footer
 
 *The footer section includes links to the relevant social media sites for S&W which can keep our users connected. The links will open to a new tab to allow easy navigation for the user. 
 * We provide our contact information, adress, phone numbers and direct conection to e-mail and google maps. 
-
+![](assets/README.files/footer.webp)
 
 Future Implementations
 - Add teachers and staff pictures on the site, with information about them and their experience. 
@@ -103,20 +100,16 @@ The page is easy to read and understand. The user will be able to return to all 
 
 Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section here
-
 Languages Used
 
 As I'm starting with coding, the langeages of this project are exclusively HTML & CSS.
 I've been using Gitpod for editing the project and Github for deployment. 
 I used Reddit to make changes that I didn't want to affect the project untill I was satisfied with those. Then, I copied my changes from Reddit and pasted in Gitpod. 
 
-
 Testing
+
 *Home, Gallery and Application are responsive. 
-
 *The footer redirect the users to google maps, all social media avaiable and even email draft. 
-
 *The site is avaiable in on all devices (max-width 1200px)
 
 Bugs
@@ -133,7 +126,6 @@ Some problems that I found are:
 Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
-
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 
