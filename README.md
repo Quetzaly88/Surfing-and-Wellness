@@ -22,7 +22,10 @@ Typography
 
 The chosen typography was adquired from fonts google.
 I chose "Manrope" for the main text because is a redable font and adapts easy to all the context.
-Another font is "Rowdies". This one was chosen for all the header and footer elements because is more fun and interactive. 
+Another font is "Rowdies". This one was chosen for all the header and footer elements because is more fun and interactive.
+
+![typography Manrope](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.41.webp)
+![typography Rowdies](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.17.png)
 
 Imagery
 
@@ -32,6 +35,8 @@ I chose those images with thought on the content, the colors and the emotions I 
 Wireframes
 
 Most wireframes were made old school with pen and paper. I have even used "balsamiq" but the ones I made on paper were more versatile and easy to go back in the middle of the project. 
+
+![skiss balsamiq1](./assets/readme-files/Screenshot-skiss1.webp)
 
 FEATURES
 
