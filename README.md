@@ -23,7 +23,10 @@ I chose "Manrope" for the main text because is a redable font and adapts easy to
 Another font is "Rowdies". This one was chosen for all the header and footer elements because is more fun and interactive.
 
 ![typography Manrope](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.41.webp)
+MANROPE
+
 ![typography Rowdies](./assets/readme-files/Screenshot%202024-03-06%20at%2023.36.17.png)
+ROWDIES
 
 Imagery
 
@@ -51,39 +54,40 @@ The landing page image
 
 The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of how it feels to surf and how happy you can feel with it. You can even undesrstand that challenging yourself is fun. 
 
-![](assets/README.files/main-.webp)
+![main page](./assets/readme-files/main-.webp)
 
 The main section
 
 Here we have the main content that shows some of the most important activities included in this program. The programs are based on rehabilitate and make people feel better. Everyone can be part of this journey no matter how old or what background you have. 
 Surf, surfskate, yoga and meditation are some of the activities that individuals can enjoy during this journey. 
 
-![](assets/README.files/content1.webp)
+![content 1](./assets/readme-files/content1.webp)
 
 Inside the main content we have an embeded video which is a trailer for a documental. The video is very moving and shows how has veterans return to their normal lives thanks to surfing. This is proof that this program can be very beneficial. 
 
-![](assets/README.files/content2.webp)
+![content 2](./assets/readme-files/content2.webp)
 
 Gallery Section
 
 Here we have some pictures of the experiences. 
 Meditation, surfing, socializing and connection with the nature are some of the highlights that can motivate users to be part of this eperience. 
 
-![](assets/README.files/gallery.webp)
+![gallery mobile](./assets/readme-files/gallery-mobil.webp)
+![gallery](./assets/readme-files/gallery.webp)
 
 Application Form
 
 *In this page, the users provide basic information about themselves. Name, last name, email adress and some questions. The questions are important for the team to know a little bit more about the users and their experience in the water. 
 *S&W team can locate people in the most adaptable group. Then, they can contact the users about what is avaiable. 
 
-![](assets/README.files/application.webp)
+![application](./assets/readme-files/application.webp)
 
 Footer
 
 *The footer section includes links to the relevant social media sites for S&W which can keep our users connected. The links will open to a new tab to allow easy navigation for the user. 
 * We provide our contact information, adress, phone numbers and redirect to e-mail and google maps. 
 
-![](assets/README.files/footer.webp)
+![footer](./assets/readme-files/footer.webp)
 
 Future Implementations
 - Add teachers and staff pictures on the site, with information about them and their experience. 
@@ -108,6 +112,11 @@ Testing
 *Home, Gallery and Application are responsive. 
 *The footer redirect the users to google maps, all social media avaiable and even email draft. 
 *The site is avaiable and readable in on all devices. 
+*HTML. No errors were returned when passing through the official W3C validator
+*CSS. No errors were found when passing through the official (Jigsaw) validator
+
+![HTML TEST](./assets/readme-files/html-w3.webp)
+![CSS TEST](./assets/readme-files/css-jigsaw.webp)
 
 Bugs
 
@@ -121,13 +130,6 @@ Some problems that I found are:
 - Adapt the correct picture sizes to the assets.
 - Media query was difficult to adapt aflet I was done with most of the project. 
 - Pressure made me make misstakes but at the end I solved them. 
-
-
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
 
 Deployment
 
