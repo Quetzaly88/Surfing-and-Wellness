@@ -15,7 +15,7 @@ Colour Scheme
 I chosed warm tones for my website in order to communicate peace and relaxation. The colors match to the pictures too. 
 I used coolors.co to be able to match correctly all the tones. The dark color was used on header and footer. The ligter colors were used as background colors with gradienst property. 
 
-[](./assets/readme-files/warm-tones.webp)
+[![warm tones]](./assets/readme-files/warm-tones.webp)
 
 
 Typography
