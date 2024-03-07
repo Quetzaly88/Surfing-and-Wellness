@@ -4,7 +4,7 @@ Project 1 Code Institute
 Surfing and wellness is a site to inspire users to do a different sport which can help them connect with themselves and nature. This website is targeted to people in need of new perspectives in life and with the desire to find a support community. 
 Users of this website can find information about our work and they can even complete an application to be part of these journeys.
 
-![warm tones](./assets/readme-files/mockup.webp)
+![mockup](./assets/readme-files/mockup.webp)
 
 Design
 
@@ -14,7 +14,6 @@ I chosed warm tones for my website in order to communicate peace and relaxation.
 I used coolors.co to be able to match correctly all the tones. The dark color was used on header and footer. The ligter colors were used as background colors with gradienst property. 
 
 ![warm tones](./assets/readme-files/warm-tones.webp)
-
 
 Typography
 
@@ -54,7 +53,7 @@ The landing page image
 
 The landing page includes the Title and a photograph with text overlay. This allows the user understand about the mental and physical benefits of surfing and why is this important. The image gives the user an idea of how it feels to surf and how happy you can feel with it. You can even undesrstand that challenging yourself is fun. 
 
-![main page](./assets/readme-files/main-.webp)
+![main page with navigation bar](./assets/readme-files/main-.webp)
 
 The main section
 
